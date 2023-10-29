@@ -24,3 +24,8 @@ body {
     text-align: center;
     z-index: 0; /* Lower z-index for the main content container */
 }
+
+next-button {
+    margin-right: -799px;
+    margin-top: -10px;
+}
