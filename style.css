@@ -25,7 +25,7 @@ body {
     z-index: 0; /* Lower z-index for the main content container */
 }
 
-next-button {
+.nxt-btn {
     margin-right: -799px;
-    margin-top: -10px;
+    z-index: 1;
 }
