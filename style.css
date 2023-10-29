@@ -24,8 +24,3 @@ body {
     text-align: center;
     z-index: 0; /* Lower z-index for the main content container */
 }
-
-.nxt-btn {
-    margin-right: -799px;
-    z-index: 1;
-}
