@@ -10,3 +10,18 @@ body {
     min-height: 100vh;
 }
 
+button {
+    cursor: pointer;
+}
+
+
+.start {
+    position: absolute;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
