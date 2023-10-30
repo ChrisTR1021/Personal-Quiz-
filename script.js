@@ -65,7 +65,6 @@ function gameStart() {
     var li3 = document.createElement('li');
     var li4 = document.createElement('li');
     var h1El = document.createElement('h1');
-    h1El.textContent = quiz[0].question;
     li1.textContent = question[0].answers[0];
     li2.textContent = question[1].answers[1];
     li3.textContent= question[2].answers[2];
