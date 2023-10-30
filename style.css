@@ -45,16 +45,29 @@ body {
 .question-count {
     position: relative;
     top: -217px;
-    left: -381px;
+    left: -362px;
 }
 
 .remaining-time {
     position: relative;
     top: -235px;
-    right: -354px;
+    right: -385px;
 }
 
 .begin-button {
-    cursor:pointer
+    cursor: pointer;
+    position: relative;
+    right: -22px
 }
 
+.correct {
+    background-color: white;
+    color: #689f38;
+    border-color: #689f38;
+}
+
+.incorrect {
+    background-color: white;
+    color: red;
+    border-color: red;
+}
