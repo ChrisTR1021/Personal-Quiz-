@@ -29,4 +29,13 @@ body {
     display: flex;
     justify-content: end;
     float: right;
+    position: relative;
+    top: 112px;
+    right: -62px;
+}
+
+.question-count {
+    position: relative;
+    top: -217px;
+    left: -381px;
 }
