@@ -24,3 +24,9 @@ body {
     text-align: center;
     z-index: 0; /* Lower z-index for the main content container */
 }
+
+.nxt-btn {
+    display: flex;
+    justify-content: end;
+    float: right;
+}
