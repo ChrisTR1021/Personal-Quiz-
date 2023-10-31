@@ -58,21 +58,13 @@ var myQuestions = [
 }
 ];
 
-function gameStart() {
-    console.log('game has started');
-    var li1 = document.createElement('li');
-    var li2 = document.createElement('li');
-    var li3 = document.createElement('li');
-    var li4 = document.createElement('li');
-    var h1El = document.createElement('h1');
 
-    li1.textContent = question[0].answers[0];
-    li2.textContent = question[1].answers[1];
-    li3.textContent= question[2].answers[2];
-    li4.textContent =question[3].answers[3];
-    
-    quizContainer.appendChild(h1El);
-    quizContainer.appendChild(listEL);
+function nextQuestion() {
+    i++;
+    containerEl.innerHTML = '';
+    gameStart();
 }
 
+
 startButtonEl.addEventListener('click', gameStart);
+nextButtonEl.addEventListener('click', nextQuestion);
