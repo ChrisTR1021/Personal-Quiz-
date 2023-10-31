@@ -12,10 +12,10 @@ var myQuestions = [
     id: '0',
     question: "What is JavaScript used for?",
     answers: {
-        a 'Web Applications',
-        b 'Mobile Apps',
-        c 'Game Development',
-        d 'All of the above',
+        a: 'Web Applications',
+        b: 'Mobile Apps',
+        c: 'Game Development',
+        d: 'All of the above',
 
     },
     correctAnswer: 'b'
@@ -24,10 +24,10 @@ var myQuestions = [
     id: '1',
     question: 'Which of the following keywords is used to define a variable in JavaScript?',
     answers: {
-        a	'Var',
-        b	'Let',
-        c	'Both A and B',
-        d	'None of the above',
+        a:	'Var',
+        b:	'Let',
+        c:	'Both A and B',
+        d:	'None of the above',
 
     },
     correctAnswer: 'b'
@@ -36,10 +36,10 @@ var myQuestions = [
     id: '2',
     question: 'Which built in method combines the text of two strings and returns a new string?',
     answers: {
-        a	'Append',
-        b	'Concat',
-        c	'Attach',
-        d	'None of the above',
+        a:	'Append',
+        b:	'Concat',
+        c:	'Attach',
+        d:	'None of the above',
 
     },
     correctAnswer: 'b'
@@ -48,10 +48,10 @@ var myQuestions = [
     id: '3',
     question:'Inside which HTML element do we put JavaScript?',
     answers: {
-        a	'<script>',
-        b	'<javascript>',
-        c	'<scripting>',
-        d	'<js>',
+        a:	'<script>',
+        b:	'<javascript>',
+        c:	'<scripting>',
+        d:	'<js>',
 
     },
     correctAnswer: 'a'
@@ -65,6 +65,7 @@ function gameStart() {
     var li3 = document.createElement('li');
     var li4 = document.createElement('li');
     var h1El = document.createElement('h1');
+
     li1.textContent = question[0].answers[0];
     li2.textContent = question[1].answers[1];
     li3.textContent= question[2].answers[2];
