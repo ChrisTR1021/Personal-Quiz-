@@ -59,16 +59,19 @@ var myQuestions = [
 ];
 
 function nextQuestion() {
-    console.log(myQuestions[qindex].question)
-    qindex = qindex + 1
-    for (let i = 0; i <myQuestions[qindex].answers.length; i++) {
-        console.log(myQuestions[qindex].answers[i])
-        
-    }
-    // i++;
-    // containerEl.innerHTML = '';
-    // gameStart();
+  console.log(qindex);
+  console.log(myQuestions[qindex].question);
+  for (let i = 0; i < myQuestions[qindex].answers.length; i++) {
+    console.log(myQuestions[qindex].answers[i]);
+  }
+  qindex = qindex + 1;
+  if (qindex >= 4) {
+    alert("GAME OVER");
+    return;
+  }
+
 }
+
 
 
 // startButtonEl.addEventListener('click', gameStart);
